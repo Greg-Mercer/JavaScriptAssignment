@@ -1,4 +1,8 @@
-body {
+h1 {
 	font-family: Arial, "Times New Roman", Tahoma;
+	text-align: center;
+}
+
+div#input {
 	text-align: center;
 }
