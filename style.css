@@ -6,3 +6,8 @@ h1 {
 div#input {
 	text-align: center;
 }
+
+div#readme {
+	font-family: Arial, "Times New Roman", Tahoma;
+	text-align: center;
+}
