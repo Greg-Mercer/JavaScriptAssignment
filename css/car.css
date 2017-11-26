@@ -6,3 +6,8 @@ h1 {
 div#input {
 	text-align: center;
 }
+
+canvas{
+	width: 600;
+	height: 400;
+}
