@@ -226,7 +226,7 @@ function smoke(cx, cy, r){
 	ctx.arc(cx + r/2, cy - r/2, r, 0, 2 * Math.PI);
 	ctx.arc(cx + r/2, cy + r/2, r, 0, 2 * Math.PI);
 	ctx.closePath();
-	ctx.fillStyle = "#ffccff"
+	ctx.fillStyle = "#595c60"
 	ctx.fill();
 
 }
