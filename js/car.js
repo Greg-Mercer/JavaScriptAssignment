@@ -221,16 +221,20 @@ function halfEllipseL(cx, cy, w, h){
 
 function smoke(cx, cy, r){
 	ctx.beginPath();
-	ctx.arc(cx, cy, r, 0, 2 * Math.PI);
+	ctx.arc(cx - r/2, cy - r/2, r, 0, 2 * Math.PI);
+	ctx.arc(cx - r/2, cy + r/2, r, 0, 2 * Math.PI);
+	ctx.arc(cx + r/2, cy - r/2, r, 0, 2 * Math.PI);
+	ctx.arc(cx + r/2, cy + r/2, r, 0, 2 * Math.PI);
 	ctx.closePath();
-	ctx.stroke();
-	
+	ctx.fillStyle = "#ffccff"
+	ctx.fill();
+
 }
 
 var smokeParameters = [
-		[553,213,20],
-		[571,161,30],
-		[611,131,40]
+		[570,213,10],
+		[590,161,20],
+		[641,111,40]
 	];
 
 
