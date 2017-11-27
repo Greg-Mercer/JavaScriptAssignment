@@ -268,13 +268,12 @@ function drawCar(){
 		car();
 			
 }
-var output = document.getElementById("demo");
+
 function drawSmokeAnimation(){
 	clearInterval(tmr);
 	var x =parseInt(document.getElementById("slider").value);
 	var speed = Math.abs(x - 10);
 	tmr = setInterval(drawSmoke, 100 * speed);	
-	output.innerHTML = x;
 }
 
 drawCar();
